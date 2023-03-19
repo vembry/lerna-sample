@@ -18,7 +18,8 @@
     "test": "node ./__tests__/web-component.test.js"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "babel-loader": "^9.1.2"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",
