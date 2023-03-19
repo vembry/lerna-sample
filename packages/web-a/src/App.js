@@ -1,4 +1,4 @@
-import { ComponentA } from "web-component";
+// import { ComponentA } from "web-component";
 
 import Component from "./Component";
 
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <p>this is web-a</p>
         <Component />
-        <ComponentA />
+        {/* <ComponentA /> */}
       </header>
     </div>
   );
