@@ -7,17 +7,9 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jsramblings/react-webpack-setup.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jsramblings/react-webpack-setup/issues"
-  },
-  "homepage": "https://github.com/jsramblings/react-webpack-setup#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
