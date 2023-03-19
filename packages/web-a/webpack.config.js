@@ -1,19 +1,17 @@
 module.exports = {
-  // ... other configurations ...
+  // ... other webpack config
   module: {
     rules: [
       {
-        test: /\.js$|jsx/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
+            presets: ["@babel/preset-react", "@babel/preset-env"],
           },
         },
       },
-      // ... other rules ...
     ],
   },
-  // ... other configurations ...
 };
