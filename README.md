@@ -21,3 +21,7 @@ $ npx lerna run start --stream --parallel # to start
     /web-b          # UI
     /web-component  # shared library containing components
 ```
+
+## page
+http://localhost:3001 for web-a
+http://localhost:3002 for web-b
