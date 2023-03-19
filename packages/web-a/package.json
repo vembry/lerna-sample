@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development --port 3001"
+    "start": "webpack-dev-server --mode development --port 3001"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "webpack-dev-server": "^4.9.1"
   },
   "dependencies": {
+    "web-component": "file:../web-component",
     "react": "^18.2.0",
     "react-dom": "^18.1.0"
   }

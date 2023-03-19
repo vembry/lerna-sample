@@ -1,4 +1,5 @@
-import { ComponentA } from "web-component";
+import React from 'react';
+import { ComponentA, ComponentB } from "web-component";
 
 import Component from "./Component";
 
@@ -9,6 +10,7 @@ function App() {
         <p>this is web-a</p>
         <Component />
         <ComponentA />
+        <ComponentB />
       </header>
     </div>
   );
