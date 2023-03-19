@@ -1,11 +1,11 @@
 {
-  "name": "web-a",
+  "name": "web-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development --port 3002"
   },
   "keywords": [],
   "author": "",
