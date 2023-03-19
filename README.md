@@ -4,7 +4,7 @@
 # to load dependencies
 $ npm install 
 
- # OPTIONAL: to clean the ./packages
+# OPTIONAL: to clean the ./packages
 $ npx lerna clean
 
 # to install all dependencies and any cross-dependencies between packages
