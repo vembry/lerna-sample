@@ -23,5 +23,5 @@ $ npx lerna run start --stream --parallel # to start
 ```
 
 ## page
-http://localhost:3001 for web-a
-http://localhost:3002 for web-b
+- http://localhost:3001 for web-a
+- http://localhost:3002 for web-b
