@@ -18,8 +18,8 @@
     "url": "git+https://github.com/vembry/lerna-sample.git"
   },
   "scripts": {
-    "tsc": "tsc",
-    "serve": "node ./.dist/main.js",
+    "tsc": "tsc -w",
+    "serve": "tsc -w & node --watch ./.dist/main.js",
     "test": "node ./__tests__/api.test.js"
   },
   "bugs": {
